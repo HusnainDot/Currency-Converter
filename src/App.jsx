@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import ConverterConteiner from "./Converter/ConverterConteiner";
+import './globals.css'
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <ConverterConteiner />
+    </>
+  );
+};
 
-export default App
+export default App;
